@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Cálculo de Triángulo";
+}
+
+<h2 style="text-align:center; color:#333;">Calcular Triángulo</h2>
+
+<div style="max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background-color: #f9f9f9;">
+    <form method="post">
+        <label>Lado A:</label><br />
+        <input type="number" name="ladoA" step="0.01" required style="width:100%; padding:8px; margin-bottom:10px;" /><br />
+
+        <label>Lado B:</label><br />
+        <input type="number" name="ladoB" step="0.01" required style="width:100%; padding:8px; margin-bottom:10px;" /><br />
+
+        <label>Lado C:</label><br />
+        <input type="number" name="ladoC" step="0.01" required style="width:100%; padding:8px; margin-bottom:10px;" /><br />
+
+        <input type="submit" value="Calcular" style="width:100%; padding:10px; background-color:#007bff; color:white; border:none; border-radius:4px;" />
+    </form>
+</div>
+
+@if (ViewBag.Mensaje != null)
+{
+    <p style="color:red; text-align:center; margin-top:20px;">@ViewBag.Mensaje</p>
+}
+else if (ViewBag.Tipo != null)
+{
+<div style="max-width: 400px; margin: 30px auto; padding: 15px; border: 1px solid #b3d7ff; background-color: #eaf4ff; border-radius: 8px;">
+    <h3 style="text-align:center;">Resultado:</h3>
+    <p><strong>Tipo:</strong> @ViewBag.Tipo</p>
+    <p><strong>Perímetro:</strong> @ViewBag.Perimetro</p>
+    <p><strong>Semiperímetro:</strong> @ViewBag.Semiperimetro</p>
+    <p><strong>Área:</strong> @ViewBag.Area</p>
+    <p><strong>Ángulo α:</strong> @ViewBag.Alfa º</p>
+    <p><strong>Ángulo β:</strong> @ViewBag.Beta º</p>
+    <p><strong>Ángulo ɣ:</strong> @ViewBag.Gamma º</p>
+
+</div>
+}
