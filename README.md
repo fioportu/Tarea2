@@ -6,7 +6,7 @@
 
 ----------------------------------------------------------------------------
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 Este proyecto fue desarrollado en Visual Studio 2022 como una aplicación MVC en ASP.NET Framework. El código fuente se encuentra organizado en las siguientes carpetas:
 
@@ -19,7 +19,7 @@ Se han excluido las carpetas `bin/` y `obj/` como se indica en las instrucciones
 
 ---
 
-## 🔍 Fuentes y recursos utilizados
+## Fuentes y recursos utilizados
 
 - https://learn.microsoft.com/es-es/dotnet/api/system.math?view=net-8.0
 - http://prepa8.unam.mx/academia/colegios/matematicas/paginacolmate/applets/matematicas_V/Applets_Geogebra/heron.html
@@ -28,7 +28,7 @@ Se han excluido las carpetas `bin/` y `obj/` como se indica en las instrucciones
 
 ---
 
-## 🤖 Prompts y respuestas de IA utilizadas
+## Prompts y respuestas de IA utilizadas
 
 ### ChatGPT (OpenAI)
 
